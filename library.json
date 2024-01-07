@@ -1,0 +1,9 @@
+{
+    "name": "QymOS STM32 additional libraries ( PID, Filters, Bits, SoftTimers)",
+    "version": "0.0.1",
+    "authors": {
+        "name": "Denis Kazachenkov",
+        "email": "basson30@gmail.com",
+        "url": "https://github.com/basson/qymos-stm32-common.git"
+    }
+}
