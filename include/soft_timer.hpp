@@ -6,7 +6,6 @@ namespace qymos
 {
     namespace common
     {
-
         namespace time
         {
             class SoftTimer
@@ -28,21 +27,6 @@ namespace qymos
                 void Process();
                 bool Elapsed();
             };
-
-            uint32_t GetMs()
-            {
-                return HAL_GetTick();
-            }
-
-            uint32_t GetUs()
-            {
-                return HAL_GetTick() / 1000;
-            }
-
-            uint32_t GetSec()
-            {
-                return GetUs() / 1000;
-            }
 
         } // namespace time
 
