@@ -44,6 +44,8 @@ namespace qymos
             }
             bool SoftTimer::Elapsed()
             {
+                if(!_isOn)
+                    return false;
                 bool temp;
                 temp = _isElapsed;
                 if (_isElapsed)
